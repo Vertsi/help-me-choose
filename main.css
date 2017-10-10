@@ -1,0 +1,80 @@
+
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+background-color: #003399;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  color: #33ccff;
+  font-family: Futura;
+}
+
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  margin-top: 10px;
+  background-color: #003399;
+  color: #33ccff;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: Futura;
+  border: none;
+  border-bottom:2px solid #33ccff;
+  outline: none;
+}
+input::placeholder{
+  color: inherit; 
+}
+.addOption{
+  margin-top: 10px;
+  background-color: #33ccff;
+  border: none;
+  outline: none;
+  color: #003399;
+  font-weight: lighter;
+  font-size: 24px;
+  font-family: Futura;
+  padding: 10px 18px;
+  border-radius: 50%
+}
+
+.addOption:hover {
+  background-color: white;
+  color: #003399;
+}
+
+.go{
+  background-color: #33ccff;
+  border: none;
+  color: #003399;
+  font-weight: lighter;
+  font-size: 24px;
+  font-family: Futura;
+  padding: 10px 18px;
+  border-radius: 2px;
+  width: 150px;
+  outline: none;
+}
+
+.go:hover {
+  background-color: white;
+  color: #003399;
+}
