@@ -41,7 +41,7 @@ input{
   outline: none;
 }
 input::placeholder{
-  color: inherit; 
+  color: inherit;
 }
 .addOption{
   margin-top: 10px;
