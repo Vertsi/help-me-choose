@@ -61,7 +61,7 @@ input::placeholder{
   color: #003399;
 }
 
-.go{
+.submit{
   background-color: #33ccff;
   border: none;
   color: #003399;
@@ -77,4 +77,16 @@ input::placeholder{
 .go:hover {
   background-color: white;
   color: #003399;
+}
+
+.resultSection {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  color: #33ccff;
+  font-family: Futura;
 }
