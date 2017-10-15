@@ -18,14 +18,24 @@
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script>
+
+/* Funktion som gömmer result sektionen så fort sidan laddas */
           $(function() {
             $('.resultSection').hide()
 
+
+
+/* Funktion som lägger till input element till input blocket */
             var add_option = function() {
               $('.inputs').append('<input></input>')
             }
+/* ...när man trycker på add knappen */
             $('.addOption').click(add_option)
 
+
+
+/* Funktion som plockar ut inputsen och lägger till de i en lista eller array */
+/* ...och gömmer input sektionen och visar result sektionen */
             var options = []
             var submit = function() {
               $('.inputSection').hide()
@@ -33,12 +43,15 @@
               $('input').each(function() {
                 options.push($(this).val())
               })
+/* ...plockar ut en vinnare ur listan */
               var winner = options[Math.floor(Math.random() * options.length)]
               console.log(winner)
               $('.resultSection').text(winner)
             }
+/* ...när man trycker på submit knappen */
             $('.submit').click(submit)
           })
+
         </script>
     </body>
 </html>

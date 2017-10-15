@@ -74,7 +74,7 @@ input::placeholder{
   outline: none;
 }
 
-.go:hover {
+.submit:hover {
   background-color: white;
   color: #003399;
 }
